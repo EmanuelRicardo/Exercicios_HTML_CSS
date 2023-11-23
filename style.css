@@ -1,0 +1,19 @@
+header h1 {
+    color: green;
+}
+.Maplestory h2 {
+    color: orangered;
+}
+article img {
+    width: 400px;
+    height: 350px;
+}
+
+.articles1  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles2  {
+    display:flex;
+}
