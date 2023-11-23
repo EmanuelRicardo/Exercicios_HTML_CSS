@@ -19,10 +19,15 @@ article img {
 
 .articles2  {
     display:flex;
-    justify-content: space-between;
+    justify-content:space-around;
     text-align: justify;
 }
 
-.Tibia {
+.Tibia h2 {
     color: red;
+}
+
+.Tibia div {
+    display: flex;
+    justify-content: space-between;
 }
