@@ -31,3 +31,10 @@ article img {
     display: flex;
     justify-content: space-between;
 }
+
+.imagem_contato {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+}
