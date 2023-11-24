@@ -38,3 +38,7 @@ article img {
     right: 0;
     height: 100px;
 }
+
+section {
+    padding-bottom: 150px;
+}
