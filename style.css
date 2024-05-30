@@ -42,3 +42,7 @@ article img {
 section {
     padding-bottom: 150px;
 }
+
+.articles1 article p {
+    width: 80%;
+}
