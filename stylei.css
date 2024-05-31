@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    width: 300px;
+}
+
+button {
+    width: 309px;
+    background-color:rgba(250, 235, 215, 0.63)
+}

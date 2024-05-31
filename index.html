@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Verifica número</title>
     <link rel="stylesheet" href="stylei.css">
 </head>
 <body>
-    <form action="">
-        <input type="number" id="" placeholder="Campo A">
-        <input type="number" id="" placeholder="Campo B">
-        <button> Enviar </button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Verificador de números</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <form action="">
+                <input type="number" id="primeiro_numero" placeholder="Campo A">
+                <input type="number" id="segundo_numero" placeholder="Campo B">
+                <button onclick="botão_ativo(event)"> Enviar </button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 id="resposta"></h2>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
